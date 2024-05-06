@@ -53,5 +53,6 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['login'] = 'LoginController/index';
+$route['login'] = 'LoginController/login';
 $route['home'] = 'HomeController/index';
+$route['forgot-password'] = 'LoginController/forgotPassword';
